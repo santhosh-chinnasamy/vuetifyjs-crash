@@ -1,15 +1,5 @@
 <template>
 <div>
-   <app-toolbar></app-toolbar>
-   <app-footer></app-footer> 
+    <h1>Home Component</h1>
 </div>
 </template>
-
-
-<script>
-import AppFooter from './AppFooter';
-import AppToolbar from './AppToolbar';
-export default {
-  components: { AppFooter, AppToolbar }
-}
-</script>
