@@ -4,9 +4,17 @@
   <router-link to="/">
   <v-toolbar-title class="white--text">Santhosh</v-toolbar-title>
   </router-link>
-
-    
     <v-spacer></v-spacer>
+      <v-badge left bottom color="red">
+      <span slot="badge">6</span>
+      <v-icon
+        large
+        color="red lighten-1"
+      >
+        shopping_cart
+      </v-icon>
+    </v-badge>
+
     <div>
       <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat>About</v-btn>
